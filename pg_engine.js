@@ -155,7 +155,7 @@ const draw = {
       const h = Math.abs(weights[j]) / mx * (H - 18);
       ctx.fillStyle = j === 0 ? colors.bias : colors.model;
       ctx.fillRect(gap + j * (bw + gap), H - 14 - h, bw, h);
-      ctx.fillStyle = '#6b7280'; ctx.font = '12px KaTeX_Math'; ctx.textAlign = 'center';
+      ctx.fillStyle = '#6b7280'; ctx.font = '14px KaTeX_Math'; ctx.textAlign = 'center';
       ctx.fillText('w' + j, gap + j * (bw + gap) + bw / 2, H - 3);
     }
   },
